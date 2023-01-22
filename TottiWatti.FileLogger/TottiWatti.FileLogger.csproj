@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>TottiWatti</Authors>
+    <Company>TottiWatti</Company>
+    <Description>Simple single file logger that basically does more or less the same as Serilog + Serilog.Sinks.Async + Serilog.Sinks.RollingFile</Description>
+    <Copyright>TottiWatti 2023</Copyright>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Simple text file logger </Title>
+    <PackageProjectUrl>https://github.com/TottiWatti/TottiWatti.FileLogger</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageId></PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
