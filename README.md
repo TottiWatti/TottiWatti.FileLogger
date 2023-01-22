@@ -9,7 +9,7 @@ Simple single file text logger that basically does more or less the same as Seri
 
 ### Installation
 
-Add TottiWatti.FileLogger package reference from nuget or just copy file TW.FileLogger.cs to your C# application
+Add TottiWatti.FileLogger package reference from nuget or just copy file TottiWatti.FileLogger.cs to your C# application
 
 ## Usage
 
